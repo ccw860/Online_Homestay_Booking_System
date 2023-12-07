@@ -1,0 +1,84 @@
+body{margin:0;
+overflow:scroll;
+}
+
+.upper {width:100%;
+background-color:#333;
+color: #f2f2f2;
+position:fixed;
+height:50px;
+}
+
+.menu h2{float:left;
+color: #f2f2f2;
+}
+
+.account{float:right;
+}
+
+.menu ul{list-style-type:none;
+margin:0;
+padding:0;
+width:200px;
+background-color:#333;
+height:100%;
+position:absolute;
+padding-left:10px;
+}
+
+.menu a{display:block;
+color: #f2f2f2;
+padding:8px 16px;
+text-decoration:none;
+}
+
+.menu li a:hover{background-color:#848484;
+color:black;
+}
+
+.menu li i{color:white;
+font-size:60px;
+padding-left:70px;
+padding-bottom:30px;
+}
+
+.active{background-color:lightblue;
+}
+
+.menu .active a{color:black;
+}
+
+
+.drop .btn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: #7097AB;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; 
+}
+
+.down{display:none;
+  position: absolute;
+  background-color: #758EB7;
+  right:0;
+  height:20px;
+  float:right;
+}
+
+.down a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;}
+  
+.down a:hover {
+  background-color: white;
+}
+.drop:hover .down {
+  display: block;
+}
